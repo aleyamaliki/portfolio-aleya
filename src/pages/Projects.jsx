@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/NavBar'
-import HackathonCardGrid from '../components/HackathonCardGrid'
-import SchoolCardGrid from '../components/SchoolCardGrid'
+import HackathonCardGrid from '../components/projects/HackathonCardGrid'
+import SchoolCardGrid from '../components/projects/SchoolCardGrid'
 import Footer from '../components/Footer'
 
 const Projects = () => {

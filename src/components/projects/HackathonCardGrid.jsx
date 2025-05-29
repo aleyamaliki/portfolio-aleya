@@ -1,8 +1,8 @@
 import React from 'react'
 import Card from './Card';
-import schoolData from '../data/SchoolData'
+import hackathonData from '../../data/HackathonData'
 
-const SchoolCardGrid = () => {
+const HackathonCardGrid = () => {
   const handleCardAction = (cardId, title) => {
     alert(`Button clicked for: ${title} (ID: ${cardId})`);
   };
@@ -10,7 +10,7 @@ const SchoolCardGrid = () => {
   return (
     <div className="p-6">
       <div className="flex flex-wrap gap-6 justify-center">
-        {schoolData.map((card) => (
+        {hackathonData.map((card) => (
           <Card
             key={card.id}
             image={card.image}
@@ -25,4 +25,4 @@ const SchoolCardGrid = () => {
   )
 }
 
-export default SchoolCardGrid
+export default HackathonCardGrid
