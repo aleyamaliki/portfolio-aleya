@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import AboutMe from "./pages/AboutMe"
 import Navbar from "./components/NavBar"
+import Experiences from "./pages/Experiences"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/experiences" element={<Experiences />} />
         <Route path="/aboutme" element={<AboutMe />} />
       </Routes>
     </div>

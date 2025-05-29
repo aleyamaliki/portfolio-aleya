@@ -9,17 +9,13 @@ const Navbar = () => {
     <div className="sticky top-0 overflow-hidden bg-[#EBE8DB]/40 shadow-xl shadow-black/10  rounded-bl-2xl rounded-br-2xl">
       <nav className=" flex justify-between items-center p-4 ">
           <div className="">
-              <img src={Logo} alt="logo" width={100}/>
-          </div>
-          <div className="flex gap-6">
               <NavLink 
               to="/"
-              className={({ isActive }) => 
-              (isActive ? activeLink : "")
-              }
               >
-              Home
+              <img src={Logo} alt="logo" width={100}/>
               </NavLink>
+          </div>
+          <div className="flex gap-6">
               <NavLink 
               to="/projects"
               className={({ isActive }) => 
@@ -27,6 +23,14 @@ const Navbar = () => {
               }
               >
               Projects
+              </NavLink>
+              <NavLink 
+              to="/experiences"
+              className={({ isActive }) => 
+              (isActive ? activeLink : "")
+              }
+              >
+              Experiences
               </NavLink>
               <NavLink 
               to="/aboutme"
