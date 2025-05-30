@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="bg-[url(./src/assets/bg/bg-hero.png)] bg-cover bg-center min-h-screen px-4">
       <div className="flex flex-col items-center justify-center text-center min-h-screen">
-        <div className="max-w-xl">
+        <div className="">
           <span className="flex flex-col sm:flex-row items-center justify-center gap-4 text-[#343434] text-3xl sm:text-5xl font-extrabold">
             Hello! Welcome to my portfolio
             <img src={CatHi} alt="cathi" className="w-20 sm:w-[90px] mb-4 sm:mb-10" />
