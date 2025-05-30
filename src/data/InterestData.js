@@ -1,27 +1,22 @@
 const interestData = [
     {
         id: 1,
-        image: "",
+        image: "./assets/interest/crochet.png",
         title: "Crochet",
     },
     {
         id: 2,
-        image: "",
+        image: "./assets/interest/gaming.png",
         title: "Gaming",
     },
     {
         id: 3,
-        image: "",
+        image: "./assets/interest/cats.png",
         title: "Cats",
     },
     {
         id: 4,
-        image: "",
-        title: "Animation",
-    },
-    {
-        id: 5,
-        image: "",
+        image: "./assets/interest/book.png",
         title: "Books",
     },
 ];

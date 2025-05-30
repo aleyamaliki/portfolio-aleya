@@ -3,8 +3,8 @@ import Card from './Card';
 import hackathonData from '../../data/HackathonData'
 
 const HackathonCardGrid = () => {
-  const handleCardAction = (cardId, title) => {
-    alert(`Button clicked for: ${title} (ID: ${cardId})`);
+  const handleCardAction = (link) => {
+    window.open(link, "_blank")
   };
 
   return (
@@ -15,9 +15,10 @@ const HackathonCardGrid = () => {
             key={card.id}
             image={card.image}
             title={card.title}
+            hackathon={card.hackathon}
             description={card.description}
             buttonText={card.buttonText}
-            onButtonClick={() => handleCardAction(card.id, card.title)}
+            onButtonClick={() => handleCardAction(card.githubLink)}
           />
         ))}
       </div>

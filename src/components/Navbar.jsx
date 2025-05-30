@@ -7,7 +7,7 @@ import { FaBars } from 'react-icons/fa'
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState (false)
-  const activeLink = "text-[#E69DB8] font-bold"
+  const activeLink = "text-[#304254] font-bold"
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <div className={`sticky top-0 overflow-hidden ${isScrolled ? 'bg-[#EBE8DB]' : 'bg-[#EBE8DB]/70'} transition-colors duration-500 ease-in-out shadow-xl shadow-black/10  rounded-bl-2xl rounded-br-2xl`}>
+    <div className={`sticky top-0 z-50 overflow-hidden ${isScrolled ? 'bg-[#DEEEFF]' : 'bg-[#DEEEFF]/70'} transition-colors duration-500 ease-in-out shadow-xl shadow-black/10  rounded-bl-2xl rounded-br-2xl text-[#343434]`}>
       <nav className=" flex justify-between items-center p-4 ">
         <div className="">
           <NavLink to="/">

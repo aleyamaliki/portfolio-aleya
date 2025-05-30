@@ -2,6 +2,7 @@ const skillData = [
     {
         id: 1,
         image: "./assets/skill/html.png",
+        imageSize: "h-10 w-20",
         title: "HTML",
     },
     {
@@ -12,11 +13,13 @@ const skillData = [
     {
         id: 3,
         image: "./assets/skill/javascript.png",
+        imageSize: "h-10 w-15",
         title: "JavaScript",
     },
     {
         id: 4,
         image: "./assets/skill/java.png",
+        imageSize: "h-15 w-20",
         title: "Java",
     },
     {
