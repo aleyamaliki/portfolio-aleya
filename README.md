@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 
 ## 🚀 Live Demo
 
-**Live Site:** [https://portfolio-aleya.pages.dev](https://portfolio-aleya.pages.dev)
+**Live Site:** [https://portfolio-aleya-maliki.pages.dev/](https://portfolio-aleya-maliki.pages.dev/)
 
 ## 📖 About
 
@@ -56,21 +56,6 @@ This portfolio website serves as a comprehensive showcase of my development jour
    ```
    http://localhost:5173
    ```
-
-### Available Scripts
-
-```bash
-# Development
-npm run dev          # Start dev server with hot reload
-npm run build        # Build for production
-npm run preview      # Preview production build locally
-
-# Code Quality
-npm run lint         # Run ESLint
-npm run lint:fix     # Fix ESLint issues automatically
-
-# Deployment
-npm run deploy       # Deploy to Cloudflare Pages (if configured)
 ```
 
 ## 🌐 Deployment
