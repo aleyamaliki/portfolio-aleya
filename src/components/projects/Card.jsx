@@ -25,7 +25,7 @@ const Card = ({ image, title, hackathon, description, buttonText, onButtonClick,
       <div className="w-full rounded px-3 pb-3 pt-1.5">
           <button 
             onClick={onButtonClick}
-            className="inline-flex rounded-md border-2 border-[#99CAFF] bg-white text-[#343434] hover:border-white hover:bg-[#89A6C5]/50  px-4 py-2 text-center font-bold text-sm hover:text-white transition-all duration-300 ease-in hover:outline-2 hover:outline-offset-2 hover:transition-all hover:duration-300 hover:outline-[#99CAFF] disabled:cursor-not-allowed disabled:opacity-50 disabled:shadow-none"
+            className="inline-flex rounded-md border-2 border-[#99CAFF] bg-white text-[#343434] hover:border-white hover:bg-[#99CAFF] px-4 py-2 text-center font-bold text-sm hover:text-white transition-all duration-300 ease-in hover:outline-2 hover:outline-offset-2 hover:transition-all hover:duration-300 hover:outline-[#99CAFF] disabled:cursor-not-allowed disabled:opacity-50 disabled:shadow-none"
           >
             {buttonText}
           </button>

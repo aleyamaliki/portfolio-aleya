@@ -7,10 +7,10 @@ const languageData = [
         id: 2,
         title: "Malay"
     },
-    {
-        id: 3,
-        title: "Japanese"
-    },
+    // {
+    //     id: 3,
+    //     title: "Japanese"
+    // },
 ];
 
 export default languageData

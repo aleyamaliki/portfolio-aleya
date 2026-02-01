@@ -17,9 +17,13 @@ const AboutDesc = () => {
           />
 
           <p className="text-sm sm:text-base text-justify max-w-xl leading-relaxed">
-            👋 I'm Intan Nur Aleya Maliki, a front-end developer who loves bringing ideas to life through clean code and creative design. <br /><br />
-            In the heat of hackathons — which I have not just joined but won 🎉 — I have developed innovative solutions under tight deadlines, proving that creativity and teamwork can solve anything! <br /><br />
-            At the heart of my work is a simple goal: to create seamless, responsive experiences that make technology feel effortless and enjoyable.
+            I’m a software developer with a strong focus on building clean, scalable, and user-friendly web applications.
+            <br/>
+            <br/>
+            I enjoy turning complex problems into simple, maintainable solutions, especially on the frontend where performance and user experience matter most. I work primarily with TypeScript, React, and modern web tooling, and I care a lot about writing strongly typed, readable code that’s easy to understand and extend. I believe good code isn’t just about making things work. It’s about making them work well for the next person who touches it (often future me).
+            <br/>
+            <br/>
+            I enjoy collaborating with teams, learning new technologies, and continuously improving my craft. Whether it’s refining UI interactions, optimizing performance, or structuring a codebase for long-term maintainability, I’m always looking for ways to build better software.
           </p>
         </div>
 

@@ -1,13 +1,12 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import HackathonCardGrid from '../components/projects/HackathonCardGrid'
 import SchoolCardGrid from '../components/projects/SchoolCardGrid'
 import Footer from '../components/Footer'
+import PageTransition from '../components/PageTransition'
 
 const Projects = () => {
   return (
-    <div>
-      <Navbar />
+    <PageTransition>
       <div className="pb-20">
         <h1 className="text-center text-3xl font-bold py-10 text-[#89A6C5] text-shadow-white text-shadow-md ">Hackathon projects</h1>
         <HackathonCardGrid />
@@ -17,7 +16,7 @@ const Projects = () => {
         <SchoolCardGrid />
       </div> */}
       <Footer />
-    </div>
+    </PageTransition>
   )
 }
 

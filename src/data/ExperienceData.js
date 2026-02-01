@@ -1,10 +1,10 @@
 const ExperienceData = [
     {
         id: 1,
-        jobtitle: "Frontend Developer Freelance",
-        jobplace: "Remote",
-        period: "Present",
-        description: "Designed and developed responsive web applications using React and TailwindCSS."
+        jobtitle: "Junior Full Stack Engineer",
+        jobplace: "Cynco Sdn Bhd",
+        period: "June 2025 until now",
+        description: "Contributed to the development of production full-stack web features with a strong frontend focus."
     },
     {
         id: 2,

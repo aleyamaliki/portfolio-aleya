@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router'
+import { AnimatePresence, motion } from 'framer-motion'
 import Logo from '../assets/logo.png'
 import { FaX } from 'react-icons/fa6'
 import { FaBars } from 'react-icons/fa'
@@ -70,13 +71,23 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Links */}
-      {isMenuOpen && (
-        <div className="flex flex-col items-center gap-4 pb-4 md:hidden">
-          <NavLink to="/projects" className={({ isActive }) => isActive ? activeLink : ""} onClick={() => setIsMenuOpen(false)}>Projects</NavLink>
-          <NavLink to="/experiences" className={({ isActive }) => isActive ? activeLink : ""} onClick={() => setIsMenuOpen(false)}>Experiences</NavLink>
-          <NavLink to="/aboutme" className={({ isActive }) => isActive ? activeLink : ""} onClick={() => setIsMenuOpen(false)}>About Me</NavLink>
-        </div>
-      )}  
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25, ease: 'easeInOut' }}
+            className="overflow-hidden md:hidden"
+          >
+            <div className="flex flex-col items-center gap-4 pb-4">
+              <NavLink to="/projects" className={({ isActive }) => isActive ? activeLink : ""} onClick={() => setIsMenuOpen(false)}>Projects</NavLink>
+              <NavLink to="/experiences" className={({ isActive }) => isActive ? activeLink : ""} onClick={() => setIsMenuOpen(false)}>Experiences</NavLink>
+              <NavLink to="/aboutme" className={({ isActive }) => isActive ? activeLink : ""} onClick={() => setIsMenuOpen(false)}>About Me</NavLink>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>  
     </div>
   )
 }

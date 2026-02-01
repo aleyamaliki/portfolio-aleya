@@ -1,14 +1,13 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import PinProjectCard from '../components/projects/PinProjectCard'
 import { NavLink } from 'react-router'
+import PageTransition from '../components/PageTransition'
 
 const Home = () => {
   return (
-    <div>
-        <Navbar />
+    <PageTransition>
         <Hero />
 
         <div className="py-10">
@@ -28,7 +27,7 @@ const Home = () => {
         </div>
 
         <Footer />
-    </div>
+    </PageTransition>
   )
 }
 

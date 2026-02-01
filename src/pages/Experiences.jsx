@@ -1,12 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ExperienceList from '../components/experience/ExperienceList'
+import PageTransition from '../components/PageTransition'
 
 const Experiences = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar />
+    <PageTransition className="min-h-screen flex flex-col">
 
       {/* Page content */}
       <main className="flex-grow px-4 sm:px-10 pt-10">
@@ -18,7 +17,7 @@ const Experiences = () => {
       </main>
 
       <Footer />
-    </div>
+    </PageTransition>
   )
 }
 

@@ -18,14 +18,13 @@ const skillData = [
     },
     {
         id: 4,
-        image: "./assets/skill/java.png",
-        imageSize: "h-15 w-20",
-        title: "Java",
+        image: "./assets/skill/ts.png",
+        title: "Typescript",
     },
     {
         id: 5,
-        image: "./assets/skill/c++.png",
-        title: "C++",
+        image: "./assets/skill/postgresql.png",
+        title: "PostgreSQL",
     },
     {
         id: 6,

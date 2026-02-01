@@ -10,9 +10,9 @@ const Footer = () => {
         {/* Logo + Description */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left gap-2">
           <img src={Logo} alt="logo" width={100} />
-          <p className="text-sm text-slate-500 max-w-xs">
-            A passionate frontend developer.
-          </p>
+          {/* <p className="text-sm text-slate-500 max-w-xs">
+            A girl with a passion.
+          </p> */}
         </div>
 
         {/* Social Section */}
@@ -40,7 +40,7 @@ const Footer = () => {
       <div className="w-full h-px bg-gray-300 my-6"></div>
 
       {/* Bottom Text */}
-      <h1 className="text-center text-sm text-slate-500">© 2025 Intan Nur Aleya Maliki. All rights reserved.</h1>
+      <h1 className="text-center text-sm text-slate-500">© 2026 Intan Nur Aleya Maliki. All rights reserved.</h1>
     </footer>
   )
 }
