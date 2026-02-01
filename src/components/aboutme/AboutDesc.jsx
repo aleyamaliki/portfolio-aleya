@@ -1,9 +1,10 @@
 import React from 'react'
 import MyPic from '../../assets/mypicture.jpg'
+import bgHero from '../../assets/bg/bg-hero.png'
 
 const AboutDesc = () => {
   return (
-    <div className="bg-[url(./src/assets/bg/bg-hero.png)] bg-cover bg-center">
+    <div style={{ backgroundImage: `url(${bgHero})` }} className="bg-cover bg-center">
       <div className="py-10 px-4 sm:px-10">
         <h1 className="text-center text-2xl sm:text-3xl font-bold text-[#89A6C5] text-shadow-white text-shadow-md">
           About Me

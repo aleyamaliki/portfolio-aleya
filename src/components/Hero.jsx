@@ -1,10 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router'
 import CatHi from '../assets/cat.png'
+import bgHero from '../assets/bg/bg-hero.png'
 
 const Hero = () => {
   return (
-    <div className="bg-[url(./src/assets/bg/bg-hero.png)] bg-cover bg-center min-h-screen px-4">
+    <div style={{ backgroundImage: `url(${bgHero})` }} className="bg-cover bg-center min-h-screen px-4">
       <div className="flex flex-col items-center justify-center text-center min-h-screen">
         <div className="">
           <span className="flex flex-col sm:flex-row items-center justify-center gap-4 text-[#343434] text-3xl sm:text-5xl font-extrabold">
